@@ -1,0 +1,113 @@
+	@charset "utf-8";
+	body,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,pre,td,textarea,th,ul,span,i
+	{
+	margin:0;
+	padding:0;
+	border:0;
+	color:#fff;
+	}
+	
+	body
+	{
+	background-color: #333;
+	font-size: 0;
+	}
+		
+	.layout-logo
+	{
+		position:relative;
+		margin-top:65px;
+		width: 1200px;
+		height: 200px;
+	}
+	.layout-logo i
+	{
+		position:absolute;
+		margin:0 0 0 500px;
+	    width:200px;
+		height:200px;
+		background-image: url(img/imgToos/logo.png);
+	}
+	.layout-m-navigation
+	{
+		width: 1000px;
+		height: 80px;
+		position:relative;
+		padding:100px;
+		text-align: center;
+	}
+	
+	.layout-nav-lu
+	{
+		list-style-type: none;
+		position: relative;
+		text-align: center;
+	}
+	
+	.layout-nav-lu li
+	{
+		width:48px;
+		display:inline-block;
+		/* background-color: #f66; */
+		cursor: pointer;
+		padding:10px;
+		vertical-align: top;
+	}
+	
+	.layout-nav-lu li span
+	{
+		font-size:14px;
+	}
+	.layout-nav-lu a
+	{
+		text-decoration: none;
+		display: block;
+	}
+	.all-ico
+	{
+		display:inline-block;
+		width: 48px;
+		height: 48px;
+		padding-bottom: 10px;
+		background-repeat : no-repeat;
+	}
+	.all-ico.home-ico
+	{
+		background-image: url(img/imgToos/home_img.png);
+	}
+	.all-ico.home-ico:HOVER
+	{
+		background-image: url(img/imgToos/homet_img.png);
+	}
+	.all-ico.blogger-ico
+	{
+		background-image: url(img/imgToos/blogger_img.png);
+	}
+	.all-ico.blogger-ico:HOVER
+	{
+		background-image: url(img/imgToos/bloggert_img.png);
+	}
+	.all-ico.data-ico
+	{
+		background-image: url(img/imgToos/data_img.png);
+	}
+	.all-ico.data-ico:HOVER
+	{
+		background-image: url(img/imgToos/datat_img.png);
+	}
+	.all-ico.share-ico
+	{
+		background-image: url(img/imgToos/share_img.png);
+	}
+	.all-ico.share-ico:HOVER
+	{
+		background-image: url(img/imgToos/sharet_img.png);
+	}
+	.all-ico.tools-ico
+	{
+		background-image: url(img/imgToos/tools_img.png);
+	}
+	.all-ico.tools-ico:HOVER
+	{
+		background-image: url(img/imgToos/toolst_img.png);
+	}
